@@ -15,9 +15,9 @@ class TestCrawler(unittest.TestCase):
         self.mock_main_result = MagicMock()
         self.mock_main_result.links = {
             "internal": [
-                "https://test-docs.example.com/page1",
-                "https://test-docs.example.com/page2",
-                {"href": "https://test-docs.example.com/page3"},
+                "https://test-docs.example.com/docs/page1/",
+                "https://test-docs.example.com/docs/page2/",
+                {"href": "https://test-docs.example.com/docs/page3/"},
             ]
         }
         self.mock_main_result.markdown = "# Main Page\nContent"
@@ -31,8 +31,14 @@ class TestCrawler(unittest.TestCase):
     def tearDown(self):
         # Clean up test output directory if it exists
         if self.output_dir.exists():
-            for file in self.output_dir.glob("*.md"):
+            # Remove all markdown files recursively
+            for file in self.output_dir.glob("**/*.md"):
                 file.unlink()
+            # Remove subdirectories in reverse order
+            for dir in sorted(self.output_dir.glob("**/"), reverse=True):
+                if dir != self.output_dir and dir.is_dir():
+                    dir.rmdir()
+            # Remove the main output directory
             self.output_dir.rmdir()
     
     @patch('main.AsyncWebCrawler')
@@ -61,9 +67,9 @@ class TestCrawler(unittest.TestCase):
         # Verify files were created
         expected_files = [
             "index.md",
-            "page1.md",
-            "page2.md",
-            "page3.md"
+            "docs/page1/index.md",
+            "docs/page2/index.md",
+            "docs/page3/index.md"
         ]
         
         for file in expected_files:
