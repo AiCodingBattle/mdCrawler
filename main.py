@@ -162,8 +162,6 @@ async def crawl_documentation(url: str, name: str):
                     logger.info(f"Processing link: {link_url}")
                     filename = get_safe_filename(link_url)
                     logger.info(f"Generated filename: {filename}")
-                    
-                    logger.info(f"Processing link: {link_url}")
                     # Use content extraction config for the actual page content
                     result = await crawler.arun(link_url, config=content_extraction_cfg)
                     
