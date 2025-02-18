@@ -113,4 +113,4 @@ In SPM compatible plugins, update `Package.swift` file to use a fixed version in
 
 Edit this page![](https://images.prismic.io/ionicframeworkcom/d3d3f7a3-023b-4cdf-93af-84674f623818_portals+ad.png?auto=compress,format&rect=0,0,280,200&w=280&h=200)
 Micro Frontends for any React Native, Android, or iOS mobile apps.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fupdating%2Fplugins%2F7-0&_biz_t=1739803061598&_biz_i=Updating%20plugins%20to%207.0%20%7C%20Capacitor%20Documentation&_biz_n=19&rnd=808773&cdn_o=a&_biz_z=1739803061598)
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fupdating%2Fplugins%2F7-0&_biz_t=1739811917867&_biz_i=Capacitor%20Documentation&_biz_n=20&rnd=934530&cdn_o=a&_biz_z=1739811917867)

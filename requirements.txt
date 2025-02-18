@@ -1,4 +1,5 @@
 crawl4ai>=0.4.243
+pyyaml>=6.0.1
 
 # Test dependencies
 aiohttp>=3.9.0

@@ -83,4 +83,4 @@ Notes on persisting plugin calls for asynchronous or repeated operations can be 
 
 Edit this page![](https://images.prismic.io/ionicframeworkcom/50ede1c5-d69d-4c9d-bf0d-4c9ab7c14724_doc-ad-appflow.png?auto=compress,format&rect=0,0,280,200&w=280&h=200)
 Mobile CI/CD made easy. Build, publish, and update from the cloud.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fcore-apis%2Fios&_biz_t=1739803088569&_biz_i=Capacitor%20iOS%20API%20%7C%20Capacitor%20Documentation&_biz_n=69&rnd=312047&cdn_o=a&_biz_z=1739803088570)
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fcore-apis%2Fios&_biz_t=1739811945946&_biz_i=Capacitor%20iOS%20API%20%7C%20Capacitor%20Documentation&_biz_n=70&rnd=749106&cdn_o=a&_biz_z=1739811945947)

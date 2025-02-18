@@ -73,4 +73,4 @@ If still getting the "Plugin not implemented" error, make sure you don't have `W
 
 Edit this page![](https://images.prismic.io/ionicframeworkcom/50ede1c5-d69d-4c9d-bf0d-4c9ab7c14724_doc-ad-appflow.png?auto=compress,format&rect=0,0,280,200&w=280&h=200)
 Mobile CI/CD made easy. Build, publish, and update from the cloud.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fios%2Ftroubleshooting&_biz_t=1739803082351&_biz_i=iOS%20Troubleshooting%20Guide%20%7C%20Capacitor%20Documentation&_biz_n=57&rnd=554047&cdn_o=a&_biz_z=1739803082351)
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fios%2Ftroubleshooting&_biz_t=1739811939519&_biz_i=Capacitor%20Documentation&_biz_n=58&rnd=33129&cdn_o=a&_biz_z=1739811939519)

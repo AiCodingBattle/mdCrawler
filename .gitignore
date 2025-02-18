@@ -43,3 +43,6 @@ Thumbs.db
 # Project specific
 *.log
 .env
+
+crawler.knowledge.md
+mylib.yaml

@@ -1,0 +1,468 @@
+libraries:
+  # Programming Languages
+  - name: python-docs
+    url: https://docs.python.org/3/
+  - name: java-docs
+    url: https://docs.oracle.com/javase/8/docs/api/
+  - name: cpp-docs
+    url: https://en.cppreference.com/w/
+  - name: rust-docs
+    url: https://doc.rust-lang.org/std/
+  - name: go-docs
+    url: https://go.dev/doc/
+  
+  # Web Frameworks
+  - name: django-docs
+    url: https://docs.djangoproject.com/
+  - name: flask-docs
+    url: https://flask.palletsprojects.com/
+  - name: fastapi-docs
+    url: https://fastapi.tiangolo.com/
+  - name: expressjs-docs
+    url: https://expressjs.com/
+  - name: rails-docs
+    url: https://guides.rubyonrails.org/
+  
+  # Database Systems
+  - name: postgresql-docs
+    url: https://www.postgresql.org/docs/
+  - name: mysql-docs
+    url: https://dev.mysql.com/doc/
+  - name: supabase-docs
+    url: https://supabase.com/docs
+  - name: mongodb-docs
+    url: https://www.mongodb.com/docs/
+  - name: redis-docs
+    url: https://redis.io/docs/
+  
+  # ORMs & Database Tools
+  - name: sqlalchemy-docs
+    url: https://docs.sqlalchemy.org/
+  - name: prisma-docs
+    url: https://www.prisma.io/docs/
+  - name: sequelize-docs
+    url: https://sequelize.org/docs/v6/
+  - name: typeorm-docs
+    url: https://typeorm.io/
+  - name: drizzle-docs
+    url: https://orm.drizzle.team/docs/
+  
+  # AI/ML Frameworks
+  - name: tensorflow-docs
+    url: https://www.tensorflow.org/api_docs
+  - name: pytorch-docs
+    url: https://pytorch.org/docs/stable/index.html
+  - name: huggingface-docs
+    url: https://huggingface.co/docs
+  - name: langchain-docs
+    url: https://python.langchain.com/docs/
+  - name: llama-index-docs
+    url: https://docs.llamaindex.ai/
+  - name: langgraph-docs
+    url: https://langchain-ai.github.io/langgraph/tutorials
+  - name: pydantic-ai-docs
+    url: https://ai.pydantic.dev/
+  
+  # Natural Language Processing
+  - name: spacy-docs
+    url: https://spacy.io/api/
+  - name: nltk-docs
+    url: https://www.nltk.org/
+  - name: gensim-docs
+    url: https://radimrehurek.com/gensim/
+  - name: stanza-docs
+    url: https://stanfordnlp.github.io/stanza/
+  - name: flair-docs
+    url: https://github.com/flairNLP/flair
+  
+  # Computer Vision
+  - name: opencv-docs
+    url: https://docs.opencv.org/
+  - name: pytorch-lightning-docs
+    url: https://lightning.ai/docs/pytorch/stable/
+  - name: detectron2-docs
+    url: https://detectron2.readthedocs.io/
+  - name: mmdetection-docs
+    url: https://mmdetection.readthedocs.io/
+  - name: keras-cv-docs
+    url: https://keras.io/api/keras_cv/
+  
+  # AI Agents & Automation
+  - name: autogpt-docs
+    url: https://docs.agpt.co/
+  - name: babyagi-docs
+    url: https://github.com/yoheinakajima/babyagi
+  - name: composio-docs
+    url: https://composio.dev/docs
+  - name: crewai-docs
+    url: https://docs.crewai.com/
+  - name: jarvis-docs
+    url: https://microsoft.github.io/JARVIS/
+  
+  # Vector Databases
+  - name: pinecone-docs
+    url: https://docs.pinecone.io/
+  - name: weaviate-docs
+    url: https://weaviate.io/developers/weaviate
+  - name: qdrant-docs
+    url: https://qdrant.tech/documentation/
+  - name: milvus-docs
+    url: https://milvus.io/docs/
+  - name: chroma-docs
+    url: https://docs.trychroma.com/
+  
+  # LLM Toolkits
+  - name: llama-cpp-docs
+    url: https://llama.meta.com/docs/
+  - name: ollama-docs
+    url: https://ollama.ai/docs
+  - name: vllm-docs
+    url: https://docs.vllm.ai/
+  - name: openai-docs
+    url: https://platform.openai.com/docs/
+  - name: anthropic-docs
+    url: https://docs.anthropic.com/
+  
+  # Data Processing
+  - name: pandas-docs
+    url: https://pandas.pydata.org/docs/
+  - name: numpy-docs
+    url: https://numpy.org/doc/
+  - name: polars-docs
+    url: https://pola-rs.github.io/polars-book/
+  - name: dask-docs
+    url: https://docs.dask.org/
+  - name: spark-docs
+    url: https://spark.apache.org/docs/
+  
+  # YAML Processing
+  - name: ruamel.yaml-docs
+    url: https://yaml.readthedocs.io/
+  - name: pyyaml-docs
+    url: https://pyyaml.org/wiki/PyYAMLDocumentation
+  - name: rapidyaml-docs
+    url: https://github.com/biojppm/rapidyaml
+  - name: snakeyaml-docs
+    url: https://bitbucket.org/asomov/snakeyaml/src/master/
+  - name: yaml-cpp-docs
+    url: https://github.com/jbeder/yaml-cpp
+  
+  # API Tools
+  - name: swagger-docs
+    url: https://swagger.io/docs/
+  - name: postman-docs
+    url: https://learning.postman.com/docs/
+  - name: fastapi-swagger-docs
+    url: https://fastapi.tiangolo.com/features/#automatic-docs
+  - name: insomnia-docs
+    url: https://docs.insomnia.rest/
+  - name: hoppscotch-docs
+    url: https://hoppscotch.io/docs
+  
+  # DevOps & Cloud
+  - name: docker-docs
+    url: https://docs.docker.com/
+  - name: kubernetes-docs
+    url: https://kubernetes.io/docs/home/
+  - name: terraform-docs
+    url: https://developer.hashicorp.com/terraform/docs
+  - name: ansible-docs
+    url: https://docs.ansible.com/
+  - name: pulumi-docs
+    url: https://www.pulumi.com/docs/
+  - name: coolify-docs
+    url: https://coolify.io/docs/what-is-coolify
+  
+  # CI/CD Tools
+  - name: github-actions-docs
+    url: https://docs.github.com/actions
+  - name: gitlab-ci-docs
+    url: https://docs.gitlab.com/ee/ci/
+  - name: jenkins-docs
+    url: https://www.jenkins.io/doc/
+  - name: circleci-docs
+    url: https://circleci.com/docs/
+  - name: argo-workflows-docs
+    url: https://argoproj.github.io/argo-workflows/
+  
+  # Testing Frameworks
+  - name: pytest-docs
+    url: https://docs.pytest.org/
+  - name: jest-docs
+    url: https://jestjs.io/docs/getting-started
+  - name: cypress-docs
+    url: https://docs.cypress.io/
+  - name: playwright-docs
+    url: https://playwright.dev/docs/intro
+  - name: selenium-docs
+    url: https://www.selenium.dev/documentation/
+  
+  # Monitoring & Observability
+  - name: prometheus-docs
+    url: https://prometheus.io/docs/
+  - name: grafana-docs
+    url: https://grafana.com/docs/
+  - name: sentry-docs
+    url: https://docs.sentry.io/
+  - name: datadog-docs
+    url: https://docs.datadoghq.com/
+  - name: newrelic-docs
+    url: https://docs.newrelic.com/
+  
+  # Security Tools
+  - name: vault-docs
+    url: https://developer.hashicorp.com/vault/docs
+  - name: osv-scanner-docs
+    url: https://github.com/google/osv-scanner
+  - name: trivy-docs
+    url: https://aquasecurity.github.io/trivy/
+  - name: snyk-docs
+    url: https://docs.snyk.io/
+  - name: owasp-zap-docs
+    url: https://www.zaproxy.org/docs/
+  
+  # Frontend Frameworks
+  - name: react-docs
+    url: https://react.dev/learn
+  - name: vue-docs
+    url: https://vuejs.org/guide/
+  - name: angular-docs
+    url: https://angular.io/docs
+  - name: svelte-docs
+    url: https://svelte.dev/docs
+  - name: solidjs-docs
+    url: https://www.solidjs.com/guides
+  - name: nextjs-docs
+    url: https://nextjs.org/docs
+  
+  # Mobile Development
+  - name: react-native-docs
+    url: https://reactnative.dev/docs/getting-started
+  - name: flutter-docs
+    url: https://docs.flutter.dev/
+  - name: kotlin-multiplatform-docs
+    url: https://kotlinlang.org/docs/multiplatform.html
+  - name: swiftui-docs
+    url: https://developer.apple.com/documentation/swiftui
+  - name: compose-docs
+    url: https://developer.android.com/jetpack/compose/documentation
+  - name: capacitor-docs
+    url: https://capacitorjs.com/docs
+  
+  # Game Development
+  - name: unity-docs
+    url: https://docs.unity3d.com/Manual/index.html
+  - name: unreal-engine-docs
+    url: https://docs.unrealengine.com/
+  - name: godot-docs
+    url: https://docs.godotengine.org/
+  - name: pygame-docs
+    url: https://www.pygame.org/docs/
+  - name: bevy-docs
+    url: https://bevyengine.org/learn/
+  
+  # Embedded Systems
+  - name: arduino-docs
+    url: https://docs.arduino.cc/
+  - name: esp-idf-docs
+    url: https://docs.espressif.com/projects/esp-idf/
+  - name: mbed-os-docs
+    url: https://os.mbed.com/docs/
+  - name: zephyr-docs
+    url: https://docs.zephyrproject.org/
+  - name: raspberry-pi-docs
+    url: https://www.raspberrypi.com/documentation/
+  
+  # Quantum Computing
+  - name: qiskit-docs
+    url: https://qiskit.org/documentation/
+  - name: cirq-docs
+    url: https://quantumai.google/cirq
+  - name: pennylane-docs
+    url: https://docs.pennylane.ai/
+  - name: tfq-docs
+    url: https://www.tensorflow.org/quantum
+  - name: braket-docs
+    url: https://docs.aws.amazon.com/braket/
+  
+  # Blockchain
+  - name: solidity-docs
+    url: https://docs.soliditylang.org/
+  - name: hardhat-docs
+    url: https://hardhat.org/docs
+  - name: ethers-docs
+    url: https://docs.ethers.org/
+  - name: foundry-docs
+    url: https://book.getfoundry.sh/
+  - name: substrate-docs
+    url: https://docs.substrate.io/
+  
+  # Desktop Applications
+  - name: electron-docs
+    url: https://www.electronjs.org/docs/latest/
+  - name: tauri-docs
+    url: https://v2.tauri.app/
+  - name: qt-docs
+    url: https://doc.qt.io/
+  - name: gtk-docs
+    url: https://docs.gtk.org/
+  - name: javafx-docs
+    url: https://openjfx.io/openjfx-docs/
+  
+  # Audio Processing
+  - name: librosa-docs
+    url: https://librosa.org/doc/latest/
+  - name: essentia-docs
+    url: https://essentia.upf.edu/documentation/
+  - name: pyaudio-docs
+    url: https://people.csail.mit.edu/hubert/pyaudio/docs/
+  - name: portaudio-docs
+    url: http://files.portaudio.com/docs/
+  - name: soundfile-docs
+    url: https://pysoundfile.readthedocs.io/
+  
+  # Geospatial
+  - name: gdal-docs
+    url: https://gdal.org/documentation/
+  - name: geopandas-docs
+    url: https://geopandas.org/en/stable/docs.html
+  - name: leaflet-docs
+    url: https://leafletjs.com/reference.html
+  - name: openlayers-docs
+    url: https://openlayers.org/doc/
+  - name: cesium-docs
+    url: https://cesium.com/learn/
+  
+  # Visualization
+  - name: matplotlib-docs
+    url: https://matplotlib.org/stable/contents.html
+  - name: plotly-docs
+    url: https://plotly.com/python/
+  - name: d3-docs
+    url: https://d3js.org/
+  - name: bokeh-docs
+    url: https://docs.bokeh.org/
+  - name: altair-docs
+    url: https://altair-viz.github.io/
+  
+  # Workflow Automation
+  - name: airflow-docs
+    url: https://airflow.apache.org/docs/
+  - name: prefect-docs
+    url: https://docs.prefect.io/
+  - name: dagster-docs
+    url: https://docs.dagster.io/
+  - name: luigi-docs
+    url: https://luigi.readthedocs.io/
+  - name: kubeflow-docs
+    url: https://www.kubeflow.org/docs/
+  
+  # Documentation Tools
+  - name: mkdocs-docs
+    url: https://www.mkdocs.org/
+  - name: docusaurus-docs
+    url: https://docusaurus.io/docs
+  - name: sphinx-docs
+    url: https://www.sphinx-doc.org/
+  - name: readthedocs-docs
+    url: https://docs.readthedocs.io/
+  - name: swagger-ui-docs
+    url: https://swagger.io/tools/swagger-ui/
+  
+  # IDEs & Editors
+  - name: vscode-docs
+    url: https://code.visualstudio.com/docs
+  - name: jetbrains-docs
+    url: https://www.jetbrains.com/help/
+  - name: neovim-docs
+    url: https://neovim.io/doc/user/
+  - name: emacs-docs
+    url: https://www.gnu.org/software/emacs/documentation.html
+  - name: cursor-docs
+    url: https://cursor.sh/docs/
+  
+  # Package Managers
+  - name: npm-docs
+    url: https://docs.npmjs.com/
+  - name: yarn-docs
+    url: https://yarnpkg.com/getting-started
+  - name: poetry-docs
+    url: https://python-poetry.org/docs/
+  - name: pip-docs
+    url: https://pip.pypa.io/
+  - name: cargo-docs
+    url: https://doc.rust-lang.org/cargo/
+  
+  # Build Tools
+  - name: cmake-docs
+    url: https://cmake.org/documentation/
+  - name: bazel-docs
+    url: https://bazel.build/docs
+  - name: gradle-docs
+    url: https://docs.gradle.org/
+  - name: webpack-docs
+    url: https://webpack.js.org/concepts/
+  - name: esbuild-docs
+    url: https://esbuild.github.io/
+  
+  # Containerization
+  - name: podman-docs
+    url: https://docs.podman.io/
+  - name: containerd-docs
+    url: https://containerd.io/docs/
+  - name: buildah-docs
+    url: https://buildah.io/
+  - name: kaniko-docs
+    url: https://github.com/GoogleContainerTools/kaniko
+  - name: skaffold-docs
+    url: https://skaffold.dev/docs/
+  
+  # Serverless
+  - name: aws-lambda-docs
+    url: https://docs.aws.amazon.com/lambda/
+  - name: vercel-docs
+    url: https://vercel.com/docs
+  - name: netlify-docs
+    url: https://docs.netlify.com/
+  - name: cloudflare-workers-docs
+    url: https://developers.cloudflare.com/workers/
+  - name: openfaas-docs
+    url: https://docs.openfaas.com/
+  
+  # Edge Computing
+  - name: wasm-edge-docs
+    url: https://wasmedge.org/docs/
+  - name: deno-docs
+    url: https://deno.land/manual
+  - name: bun-docs
+    url: https://bun.sh/docs
+  
+  # Browser Tools
+  - name: browser-use-docs
+    url: https://docs.browser-use.com/
+  
+  # Payment & Financial Services
+  - name: stripe-docs
+    url: https://docs.stripe.com/
+  
+  # AI Services & Tools
+  - name: trae-docs
+    url: https://docs.trae.ai/docs/
+  - name: praison-docs
+    url: https://docs.praison.ai/
+  
+  # Cloud Services
+  - name: firebase-firestore-docs
+    url: https://firebase.google.com/docs/firestore
+  - name: firebase-functions-docs
+    url: https://firebase.google.com/docs/functions
+  - name: firebase-storage-docs
+    url: https://firebase.google.com/docs/storage
+  - name: firebase-auth-docs
+    url: https://firebase.google.com/docs/auth
+  - name: firebase-ml-docs
+    url: https://firebase.google.com/docs/ml
+  - name: firebase-hosting-docs
+    url: https://firebase.google.com/docs/hosting
+  - name: firebase-app-check-docs
+    url: https://firebase.google.com/docs/app-check

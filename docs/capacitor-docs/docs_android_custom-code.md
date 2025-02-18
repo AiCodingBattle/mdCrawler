@@ -54,4 +54,4 @@ Read the Android Plugin Guide ›
 
 Edit this page![](https://images.prismic.io/ionicframeworkcom/d3d3f7a3-023b-4cdf-93af-84674f623818_portals+ad.png?auto=compress,format&rect=0,0,280,200&w=280&h=200)
 Micro Frontends for any React Native, Android, or iOS mobile apps.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fandroid%2Fcustom-code&_biz_t=1739803084330&_biz_i=Custom%20Native%20Android%20Code%20%7C%20Capacitor%20Documentation&_biz_n=61&rnd=834714&cdn_o=a&_biz_z=1739803084330)
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fandroid%2Fcustom-code&_biz_t=1739811941622&_biz_i=Custom%20Native%20Android%20Code%20%7C%20Capacitor%20Documentation&_biz_n=62&rnd=156189&cdn_o=a&_biz_z=1739811941623)

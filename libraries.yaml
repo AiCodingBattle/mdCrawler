@@ -1,0 +1,5 @@
+libraries:
+  - name: python-docs
+    url: https://docs.python.org/3/
+  - name: fastapi-docs
+    url: https://fastapi.tiangolo.com/

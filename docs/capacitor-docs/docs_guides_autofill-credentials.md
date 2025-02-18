@@ -135,4 +135,4 @@ The documentation by Apple for associated domains shows a JSON example that incl
 
 Edit this page![](https://images.prismic.io/ionicframeworkcom/d3d3f7a3-023b-4cdf-93af-84674f623818_portals+ad.png?auto=compress,format&rect=0,0,280,200&w=280&h=200)
 Micro Frontends for any React Native, Android, or iOS mobile apps.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fguides%2Fautofill-credentials&_biz_t=1739803069809&_biz_i=Autofill%20Credentials%20%7C%20Capacitor%20Documentation&_biz_n=34&rnd=385668&cdn_o=a&_biz_z=1739803069809)
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fguides%2Fautofill-credentials&_biz_t=1739811926940&_biz_i=Autofill%20Credentials%20%7C%20Capacitor%20Documentation&_biz_n=35&rnd=520031&cdn_o=a&_biz_z=1739811926940)

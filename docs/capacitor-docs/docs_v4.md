@@ -10,4 +10,4 @@ Capacitor provides a consistent, web-focused set of APIs that enable an app to s
 ## Get Started​
 Getting started with Capacitor is easy! Capacitor can be dropped into any existing modern JavaScript project, or a fresh Capacitor project can be created from scratch.
 Follow the Installation guide to get started building your app.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fv4&_biz_t=1739803054049&_biz_i=Capacitor%20Documentation&_biz_n=4&rnd=289051&cdn_o=a&_biz_z=1739803054049)
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fv4&_biz_t=1739811909559&_biz_i=Capacitor%20-%20Cross-platform%20Native%20Runtime%20for%20Web%20Apps%20%7C%20Capacitor%20Documentation&_biz_n=5&rnd=309453&cdn_o=a&_biz_z=1739811909559)

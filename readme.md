@@ -52,12 +52,27 @@ pip install -r requirements.txt
 
 # Install browser dependencies
 python -m playwright install
-
-# Convert an entire documentation site
-python main.py https://docs.python.org/fr/3/ python-docs
 ```
 
-Your converted documentation will be available in `output/python-docs/`!
+### Single Documentation Site
+
+You can use either format:
+```bash
+# Using positional arguments (original format)
+python main.py https://docs.python.org/fr/3/ python-docs
+
+# Using named arguments
+python main.py --url https://docs.python.org/fr/3/ --name python-docs
+```
+
+### Multiple Documentation Sites
+
+```bash
+# Convert multiple documentation sites using a YAML config
+python main.py --config libraries_extended.yaml
+```
+
+Your converted documentation will be available in the `docs/` directory!
 
 ## 📖 Examples
 
@@ -112,10 +127,30 @@ Each conversion will maintain the original documentation structure and create cl
 - Python 3.8 or higher (Install via Windows Store for Windows users)
 - pip (Python package manager)
 
+## 📋 Extended Library Support
+
+mdCrawler now includes an extensive library of pre-configured documentation sources covering:
+
+- **Programming Languages**: Python, Java, C++, Rust, Go
+- **Web Frameworks**: Django, Flask, FastAPI, Express.js, Rails
+- **Database Systems**: PostgreSQL, MySQL, MongoDB, Redis
+- **AI/ML Frameworks**: TensorFlow, PyTorch, Hugging Face, LangChain
+- **Cloud & DevOps**: Docker, Kubernetes, Terraform
+- **Frontend Frameworks**: React, Vue, Angular, Svelte
+- **And many more!**
+
+To use the extended library:
+
+1. Check `libraries_extended.yaml` for available documentation sources
+2. Run with the config file to process multiple sites:
+```bash
+python main.py --config libraries_extended.yaml
+```
+
 ## 📂 Output Structure
 
 ```
-output/
+docs/
 └── your-docs/
     ├── index.md              # Main documentation page
     ├── getting-started.md    # Each page becomes a Markdown file

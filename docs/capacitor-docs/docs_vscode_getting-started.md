@@ -12,4 +12,4 @@ Install
 
 Also learn the essentials of building and running, debugging and preparing your app for release with a Splash Screen & Icon, and setting version information.
 Finally, improve your project by maintaining dependencies, minimizing javascript usage, and following recommendations.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fvscode%2Fgetting-started&_biz_t=1739803057587&_biz_i=Getting%20Started%20%7C%20Capacitor%20Documentation&_biz_n=11&rnd=698514&cdn_o=a&_biz_z=1739803057588)
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fvscode%2Fgetting-started&_biz_t=1739811913371&_biz_i=Getting%20Started%20%7C%20Capacitor%20Documentation&_biz_n=12&rnd=817321&cdn_o=a&_biz_z=1739811913371)

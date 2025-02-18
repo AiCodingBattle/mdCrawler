@@ -42,4 +42,4 @@ After adding plugins try to 'reset package caches' in Xcode:
 
 Edit this page![](https://images.prismic.io/ionicframeworkcom/d3d3f7a3-023b-4cdf-93af-84674f623818_portals+ad.png?auto=compress,format&rect=0,0,280,200&w=280&h=200)
 Micro Frontends for any React Native, Android, or iOS mobile apps.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fios%2Fspm&_biz_t=1739803082808&_biz_i=Swift%20Package%20Manager%20%7C%20Capacitor%20Documentation&_biz_n=58&rnd=251446&cdn_o=a&_biz_z=1739803082808)
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fios%2Fspm&_biz_t=1739811940066&_biz_i=Swift%20Package%20Manager%20%7C%20Capacitor%20Documentation&_biz_n=59&rnd=758636&cdn_o=a&_biz_z=1739811940068)

@@ -25,6 +25,6 @@ Appflow is free to get started and uses the same Ionic account you may have used
   * Try Appflow Today
 
 
-Edit this page![](https://images.prismic.io/ionicframeworkcom/50ede1c5-d69d-4c9d-bf0d-4c9ab7c14724_doc-ad-appflow.png?auto=compress,format&rect=0,0,280,200&w=280&h=200)
-Mobile CI/CD made easy. Build, publish, and update from the cloud.
-![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=bfa08d03ffe94cbc8ad825d7c77fcc94&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fguides%2Fdeploying-updates&_biz_t=1739803071927&_biz_i=Deploying%20and%20Updating%20%7C%20Capacitor%20Documentation&_biz_n=38&rnd=2570&cdn_o=a&_biz_z=1739803071927)
+Edit this page![](https://images.prismic.io/ionicframeworkcom/d3d3f7a3-023b-4cdf-93af-84674f623818_portals+ad.png?auto=compress,format&rect=0,0,280,200&w=280&h=200)
+Micro Frontends for any React Native, Android, or iOS mobile apps.
+![](https://cdn.bizible.com/ipv?_biz_r=&_biz_h=802059049&_biz_u=ed6d98ad223740ddbf99774ce8c4ab02&_biz_l=https%3A%2F%2Fcapacitorjs.com%2Fdocs%2Fguides%2Fdeploying-updates&_biz_t=1739811929323&_biz_i=Deploying%20and%20Updating%20%7C%20Capacitor%20Documentation&_biz_n=39&rnd=424903&cdn_o=a&_biz_z=1739811929323)

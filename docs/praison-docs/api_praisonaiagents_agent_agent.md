@@ -1,0 +1,213 @@
+PraisonAI Documentation home page![light logo](https://docs.praison.ai/images/praisonai-logo-large-dark.png)![dark logo](https://docs.praison.ai/images/praisonai-logo-large-light.png)
+Search...
+Ctrl K
+Search...
+Navigation
+API Reference
+Agent Module
+DocumentationExamplesAgentsUIToolsJS
+PraisonAI Documentation home page![light logo](https://docs.praison.ai/images/praisonai-logo-large-dark.png)![dark logo](https://docs.praison.ai/images/praisonai-logo-large-light.png)
+  * Home
+
+
+##### Getting Started
+  * Introduction
+  * Installation
+  * Quick Start
+
+
+##### Core Concepts
+  * Agents
+  * Tasks
+  * Process
+  * Tools
+  * Memory
+  * Knowledge
+
+
+##### Workflows
+  * Agentic Routing
+  * Orchestrator Worker
+  * Autonomous Workflow
+  * Parallelization
+  * Prompt Chaining
+  * Evaluator Optimizer
+  * Repetitive Agents
+
+
+##### Features
+  * CLI
+  * AutoAgents
+  * Image Generation
+  * Self Reflection Agents
+  * RAG Agents
+  * Reasoning Extract Agents
+  * Reasoning Agents
+  * Multimodal Agents
+  * LangChain Agents
+  * Async Agents
+  * Mini AI Agents
+  * Generate Reasoning Data
+  * Code Agent
+  * Math Agent
+  * Structured AI Agents
+  * Callbacks Agent
+  * Chat with PDF
+
+
+##### Models
+  * Models in PraisonAI
+  * OpenAI ChatGPT
+  * Ollama
+  * Groq
+  * Google Gemini
+  * OpenRouter
+  * Anthropic
+  * Cohere
+  * Mistral
+  * DeepSeek Agents
+  * Other Models
+
+
+##### Tools
+  * Firecrawl PraisonAI Integration
+
+
+##### Other Features
+  * PraisonAI Train
+  * CrewAI with PraisonAI
+  * AutoGen with PraisonAI
+  * PraisonAI Agents
+
+
+##### Monitoring
+  * AgentOps PraisonAI Monitoring
+
+
+##### Developers
+  * Test
+  * Agents Playbook
+  * PraisonAI Package Integration
+  * Integrate with Tools
+  * Google Colab Integration
+  * Google Colab Tools
+  * Local Development
+  * Deploy
+
+
+##### Getting Started (No Code)
+  * Introduction
+  * TL;DR
+  * Installation
+  * Initialise
+  * Run
+  * Auto Generation Mode
+
+
+##### API Reference
+  * API Reference
+  * Agent Module
+  * Agents Module
+  * AutoAgents Module
+  * Task Module
+  * Process Module
+
+
+# 
+​
+Module praisonaiagents.agent.agent
+## 
+​
+Classes
+### 
+​
+Agent
+The main class representing an AI agent with specific role, goal, and capabilities.
+#### 
+​
+Parameters
+  * `name: str` - Name of the agent
+  * `role: str` - Role of the agent
+  * `goal: str` - Goal the agent aims to achieve
+  * `backstory: str` - Background story of the agent
+  * `llm: str | Any | None = 'gpt-4o'` - Language model to use
+  * `tools: List[Any] | None = None` - List of tools available to the agent
+  * `function_calling_llm: Any | None = None` - LLM for function calling
+  * `max_iter: int = 20` - Maximum iterations
+  * `max_rpm: int | None = None` - Maximum requests per minute
+  * `max_execution_time: int | None = None` - Maximum execution time
+  * `memory: bool = True` - Enable memory
+  * `verbose: bool = True` - Enable verbose output
+  * `allow_delegation: bool = False` - Allow task delegation
+  * `step_callback: Any | None = None` - Callback for each step
+  * `cache: bool = True` - Enable caching
+  * `system_template: str | None = None` - System prompt template
+  * `prompt_template: str | None = None` - Prompt template
+  * `response_template: str | None = None` - Response template
+  * `allow_code_execution: bool | None = False` - Allow code execution
+  * `max_retry_limit: int = 2` - Maximum retry attempts
+  * `respect_context_window: bool = True` - Respect context window size
+  * `code_execution_mode: Literal['safe', 'unsafe'] = 'safe'` - Code execution mode
+  * `embedder_config: Dict[str, Any] | None = None` - Embedder configuration
+  * `knowledge_sources: List[Any] | None = None` - Knowledge sources
+  * `use_system_prompt: bool | None = True` - Use system prompt
+  * `markdown: bool = True` - Enable markdown
+  * `self_reflect: bool = True` - Enable self reflection
+  * `max_reflect: int = 3` - Maximum reflections
+  * `min_reflect: int = 1` - Minimum reflections
+  * `reflect_llm: str | None = None` - LLM for reflection
+
+
+#### 
+​
+Methods
+  * `chat(self, prompt, temperature=0.2, tools=None, output_json=None)` - Chat with the agent
+  * `achat(self, prompt, temperature=0.2, tools=None, output_json=None)` - Async version of chat method
+  * `clean_json_output(self, output: str) → str` - Clean and extract JSON from response text
+  * `clear_history(self)` - Clear chat history
+  * `execute_tool(self, function_name, arguments)` - Execute a tool dynamically based on the function name and arguments
+  * `_achat_completion(self, response, tools)` - Async version of _chat_completion method
+
+
+#### 
+​
+Async Support
+The Agent class provides async support through the following methods:
+  * `achat`: Async version of the chat method for non-blocking communication
+  * `_achat_completion`: Internal async method for handling chat completions
+
+
+Example usage:
+Copy
+```
+async def main():
+  agent = Agent(
+    name="AsyncAgent",
+    role="Async Specialist",
+    goal="Handle async operations",
+    backstory="Expert in async processing"
+  )
+  
+  # Use async chat
+  result = await agent.achat(
+    prompt="Your prompt here",
+    tools=your_tools,
+    output_json=your_schema
+  )
+  print(result)
+asyncio.run(main())
+
+```
+
+Was this page helpful?
+YesNo
+API ReferenceAgents Module
+On this page
+  * Module praisonaiagents.agent.agent
+  * Classes
+  * Agent
+  * Parameters
+  * Methods
+  * Async Support
+
+
