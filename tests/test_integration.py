@@ -120,7 +120,10 @@ class TestIntegration(unittest.TestCase):
                 # Verify content
                 content = file_path.read_text()
                 self.assertIn("# ", content, f"No heading found in {file}")
-                self.assertIn("Welcome to", content, f"Expected content not found in {file}")
+                if "index.md" in file:
+                    self.assertIn("Welcome to the test documentation", content, f"Main page content not found in {file}")
+                else:
+                    self.assertIn("This is the", content, f"Subpage content not found in {file}")
         finally:
             # Clean up
             await server.stop()
