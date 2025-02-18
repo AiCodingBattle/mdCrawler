@@ -39,12 +39,21 @@ Perfect for:
 ## 🚀 Quick Start
 
 ```bash
-# Install and run in 3 simple steps:
+# Clone the repository
 git clone https://github.com/AiCodingBattle/mdCrawler.git
-python -m playwright install
+cd mdCrawler
+
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: .\venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
 
-# Convert an entire documentation site:
+# Install browser dependencies
+python -m playwright install
+
+# Convert an entire documentation site
 python main.py https://docs.python.org/fr/3/ python-docs
 ```
 
